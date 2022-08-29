@@ -9,120 +9,99 @@
 
 .alicestyle {
 
-    position: relative;
-    text-align: center;
     color:brown;
     font-family: 'Poppins', sans-serif;
 
 
 }
 .alicejob {
-    position: absolute;
-    transform: rotate(90deg);
     font-size: xx-small;
-    top: 5%;
-    left: 90%;
     font-weight: bold;
-    
+    writing-mode: vertical-rl;
     
 }
 .bucketstyle {
-
     position: relative;
-    text-align: center;
+    top: 4rem;
     color:brown;
     font-family: 'Poppins', sans-serif;
-    top: 50px;
+    
 }
 .bucketjob {
-    position: absolute;
-    transform: rotate(90deg);
     font-size: xx-small;
-    top: 5%;
-    left: 90%;
     font-weight: bold;
+    writing-mode: vertical-rl;
 }
 .hurtstyle {
-    position: relative;
-    text-align: center;
+    
+    
     color:brown;
     font-family: 'Poppins', sans-serif;
 }
 .hurtjob {
-    position: absolute;
-    transform: rotate(90deg);
     font-size: xx-small;
-    top: 5%;
-    left: 90%;
     font-weight: bold;
+    writing-mode: vertical-rl;
 }
 @media screen and (max-width: 600px) {
     .hurtstyle {
-        top:100px;
+        position: relative;
+        top:6rem;
     }
     
 }
 .jackstyle {
+    
+    
     position: relative;
-    top: 150px;
-    text-align: center;
+    top: 6rem;
     color:brown;
     font-family: 'Poppins', sans-serif;
 
 }
 .jackjob {
-    position: absolute;
-    transform: rotate(90deg);
     font-size: xx-small;
-    top: 5%;
-    left: 90%;
     font-weight: bold;
+    writing-mode: vertical-rl;
 }
 @media screen and (max-width: 600px) {
     .jackstyle {
-        top:150px;
+        top:10rem;
     }
 }
 .jamesstyle {
     position: relative;
-    top: 200px;
-    text-align: center;
+    top: 10rem;
+
     color:brown;
     font-family: 'Poppins', sans-serif;
 
 }
 .jamesjob {
-    position: absolute;
-    transform: rotate(90deg);
     font-size: xx-small;
-    top: 5%;
-    left: 90%;
     font-weight: bold;
+    writing-mode: vertical-rl;
 }
 @media screen and (max-width: 600px) {
     .jamesstyle {
-        top:200px;
+        top:12rem;
     }
 }
 .marystyle {
     position: relative;
-    top: 150px;
-    text-align: center;
+    top: 6rem;
     color:brown;
     font-family: 'Poppins', sans-serif;
 
 }
 .maryjob {
-    position: absolute;
-    transform: rotate(90deg);
     font-size: xx-small;
-    top: 5%;
-    left: 90%;
     font-weight: bold;
+    writing-mode: vertical-rl;
 }
 @media screen and (max-width: 600px) {
     .marystyle {
-        top:250px;
+        top:16rem;
     }
 }
 .shadow {
@@ -130,4 +109,7 @@
 }
 .headfont {
     font-family: 'Poppins', sans-serif;
+}
+.radius {
+    border-radius: 1rem;
 }
