@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+
+.alicestyle {
+
+    position: relative;
+    text-align: center;
+    color:brown;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.alicejob {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: xx-small;
+    top: 5%;
+    left: 90%;
+    font-weight: bold;
+    
+    
+}
+.bucketstyle {
+
+    position: relative;
+    text-align: center;
+    color:brown;
+    font-family: 'Poppins', sans-serif;
+    top: 50px;
+}
+.bucketjob {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: xx-small;
+    top: 5%;
+    left: 90%;
+    font-weight: bold;
+}
+.hurtstyle {
+    position: relative;
+    text-align: center;
+    color:brown;
+    font-family: 'Poppins', sans-serif;
+}
+.hurtjob {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: xx-small;
+    top: 5%;
+    left: 90%;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .hurtstyle {
+        top:100px;
+    }
+    
+}
+.jackstyle {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color:brown;
+    font-family: 'Poppins', sans-serif;
+
+}
+.jackjob {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: xx-small;
+    top: 5%;
+    left: 90%;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .jackstyle {
+        top:150px;
+    }
+}
+.jamesstyle {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color:brown;
+    font-family: 'Poppins', sans-serif;
+
+}
+.jamesjob {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: xx-small;
+    top: 5%;
+    left: 90%;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .jamesstyle {
+        top:200px;
+    }
+}
+.marystyle {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color:brown;
+    font-family: 'Poppins', sans-serif;
+
+}
+.maryjob {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: xx-small;
+    top: 5%;
+    left: 90%;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .marystyle {
+        top:250px;
+    }
+}
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headfont {
+    font-family: 'Poppins', sans-serif;
+}
